@@ -47,7 +47,7 @@
   .menu ul {
     display: none;
 
-    margin-top: 30px;
+    margin-top: 15px;
 
     position: absolute;
     left: 0;
@@ -129,7 +129,7 @@
   }
 
   .slider__item-content {
-    padding: 65px 0px 75px;
+    padding: 86px 0px 110px;
   }
 
   .slider__title {

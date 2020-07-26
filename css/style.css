@@ -114,6 +114,8 @@ li {
   padding: 0 20px 0 45px;
 
   position: relative;
+
+  outline: none;
 }
 
 .header__case::before {
@@ -123,6 +125,8 @@ li {
 
   position: absolute;
   left: 20px;
+
+  outline: none;
 }
 
 .header__line {
