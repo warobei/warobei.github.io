@@ -1,35 +1,26 @@
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .slider .slick-btn {
+  display: none !important;
+  }
+}
+
 @media (max-width: 768px) {
-  .burger {
+  .header__line {
+    align-items: center;
+  }
+
+  .header__burger {
     display: block;
   }
 
   .header__contact {
     text-align: center;
-  }
-
-  .header__case::before {
-    display: none;
-  }
-
-  .header__case {
-    float: none;
-
-    display: block;
-  }
-
-  .menu {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .header__phone {
-    padding-right: 20px;
-  }
-
-  .header__phone,
-  .header__envelope {
-    font-size: 12px;
   }
 
   .header__case::before {
@@ -47,6 +38,86 @@
     line-height: 2;
 
     position: relative;
+
+    float: none;
+
+    display: block;
+  }
+
+  .menu ul {
+    display: none;
+
+    margin-top: 30px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+
+    z-index: 50;
+  }
+
+  .menu li {
+    display: block;
+
+    margin-right: 0;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+
+    text-align: center;
+
+    transition: all 0.2s linear;
+  }
+
+  .menu li:hover {
+    border-top: 2px solid #ffc222;
+    border-bottom: 2px solid #ffc222;
+  }
+
+  .menu a {
+    display: block;
+    background-color: #fdc946;
+  }
+
+  .slider__item-content {
+    padding: 100px 0px 120px;
+  }
+
+
+  .slider__title {
+    font-size: 26px;
+  }
+
+  .slider__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__phone {
+    padding-right: 15px;
+  }
+
+  .header__phone,
+  .header__envelope {
+    font-size: 11px;
+
+    padding-left: 20px;
+  }
+
+  .header__case::before {
+    font-size: 14px;
+
+    display: block;
+
+    position: absolute;
+    right: 201px;
+
+    bottom: -1.9px;
+  }
+
+  .header__case {
+    font-size: 14px;
   }
 
   .services__items {
@@ -56,8 +127,36 @@
   .services__item {
     width: 100%;
   }
+
+  .slider__item-content {
+    padding: 65px 0px 75px;
+  }
+
+  .slider__title {
+    font-size: 24px;
+  }
+
+  .slider__text {
+    font-size: 14px;
+  }
 }
 
+@media (max-width: 336px) {
+  .header__phone,
+  .header__envelope {
+    font-size: 10px;
+  }
+
+  .header__phone {
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu ul {
+    display: block !important;
+  }
+}
 /* 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
 769px — 1024px: Small screens, laptops

@@ -164,7 +164,6 @@ li {
 .slider {
   background: #000 url(../img/header-bg--2.jpg) no-repeat center / cover;
 
-  min-width: 500px;
 }
 
 .slider__inner {
@@ -615,7 +614,7 @@ li {
 }
 
 .form__box-inner .jq-selectbox li.selected {
-  background-color: #ffc022ab;
+  background-color: #fdc946;
   color: #fff;
 }
 
@@ -1119,13 +1118,10 @@ li {
   letter-spacing: 0.05em;
 }
 
-/*======= burger =======*/
-
-.burger {
+.header__burger {
   color: #000;
 
   display: none;
-  padding: 9px 2px;
 
   background: transparent;
   border: 0;
@@ -1133,20 +1129,18 @@ li {
   cursor: pointer;
 
   outline: none;
+
+  
 }
 
-.burger__item {
-  display: block;
+.icon-bars {
+  font-size: 30px;
+  color: #ffc222;
+  float: right;
 
-  background-color: #fff;
-
-  font-size: 0;
-  color: transparent;
-
-  position: relative;
 }
 
-.burger__item::before {
+/* .burger__item::before {
   font-family: "icomoon";
   content: "\f0c9";
   font-size: 24px;
@@ -1170,7 +1164,7 @@ li {
   top: -17px;
   left: -25px;
   z-index: 3;
-}
+} */
 
 #modal {
   width: 300px;
