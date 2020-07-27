@@ -1094,6 +1094,10 @@ li {
 
 .footer__copyright {
   background-color: #303030;
+
+  min-height: 42px;
+
+  position: relative;
 }
 
 .copyright__text {
@@ -1104,8 +1108,13 @@ li {
 
   color: rgb(255, 255, 255);
 
-  line-height: 3.5;
+  line-height: 1;
   letter-spacing: 0.05em;
+
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
 
 .header__burger {
