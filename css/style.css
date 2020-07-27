@@ -968,7 +968,6 @@ li {
 }
 
 .footer__content {
-
   background-color: #595959;
 
   padding: 27px 0px 20px;
@@ -1017,6 +1016,8 @@ li {
   padding: 15px 20px 15px 45px;
 
   position: relative;
+
+  outline: none;
 }
 
 .footer__button::before {
