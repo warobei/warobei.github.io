@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/jquery.formstyler.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/media.css" />
     <title>LOGOTYPE</title>
   </head>
   <body>
@@ -134,7 +134,7 @@
       </div>
     </section>
 
-    <!-- <section id="services" class="services">
+    <section id="services" class="services">
       <div class="container">
         <div class="services__top">
           <div class="services__title-box">
@@ -147,10 +147,10 @@
             </div>
           </div>
           <div class="services__button">
-            <a href="#services">Показать все услуги</a>
+            <a href="#services__items">Показать все услуги</a>
           </div>
         </div>
-        <div class="services__items">
+        <div id="services__items" class="services__items">
           <div class="services__item">
             <img src="img/shape--1.png" alt="" class="services__image" />
             <div class="services__item-title">
@@ -403,34 +403,36 @@
               </div>
             </div>
           </div>
-          <a href="#" class="news__blog">
-            <div class="news__images">
-              <img src="img/gallery--1.jpg" alt="" />
-              <div class="news__date">03.04</div>
-            </div>
-            <div class="news__blog-title">
-              Новость компании
-            </div>
-            <div class="news__blog-text">
-              На сегодняшний день, коллектив компании объединяет
-              высокопрофессиональных экспертов имеющих специализации в отдельных
-              областях права...»
-            </div>
-          </a>
-          <a href="#" class="news__blog">
-            <div class="news__images">
-              <img src="img/gallery--2.jpg" alt="" />
-              <div class="news__date">03.04</div>
-            </div>
-            <div class="news__blog-title">
-              Новость компании
-            </div>
-            <div class="news__blog-text">
-              На сегодняшний день, коллектив компании объединяет
-              высокопрофессиональных экспертов имеющих специализации в отдельных
-              областях права...»
-            </div>
-          </a>
+          <div class="news__block-blog">
+            <a href="#" class="news__blog">
+              <div class="news__images">
+                <img src="img/gallery--1.jpg" alt="" />
+                <div class="news__date">03.04</div>
+              </div>
+              <div class="news__blog-title">
+                Новость компании
+              </div>
+              <div class="news__blog-text">
+                На сегодняшний день, коллектив компании объединяет
+                высокопрофессиональных экспертов имеющих специализации в
+                отдельных областях права...»
+              </div>
+            </a>
+            <a href="#" class="news__blog">
+              <div class="news__images">
+                <img src="img/gallery--2.jpg" alt="" />
+                <div class="news__date">03.04</div>
+              </div>
+              <div class="news__blog-title">
+                Новость компании
+              </div>
+              <div class="news__blog-text">
+                На сегодняшний день, коллектив компании объединяет
+                высокопрофессиональных экспертов имеющих специализации в
+                отдельных областях права...»
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -440,21 +442,23 @@
         <div class="container">
           <div class="footer__inner">
             <div class="footer__item">
-              <div class="footer__item-title">
-                Комплексное закрытие предприятия
+              <div class="footer__info">
+                <div class="footer__item-title">
+                  Комплексное закрытие предприятия
+                </div>
+                <div class="footer__item-text">
+                  Полное прекращение существования юридического лица с
+                  сохранением легальности всей предыдущей деятельности.
+                </div>
+                <a
+                  data-fancybox
+                  data-src="#modal"
+                  href="javascript:;"
+                  class="footer__button"
+                >
+                  Бесплатная консультация
+                </a>
               </div>
-              <div class="footer__item-text">
-                Полное прекращение существования юридического лица с сохранением
-                легальности всей предыдущей деятельности.
-              </div>
-              <a
-                data-fancybox
-                data-src="#modal"
-                href="javascript:;"
-                class="footer__button"
-              >
-                Бесплатная консультация
-              </a>
               <div class="footer__item-contact">
                 <ul class="footer__list">
                   <li>
@@ -485,8 +489,7 @@
                 frameborder="0"
                 style="border: 0;"
                 allowfullscreen=""
-                aria-hidden="false"
-                tabindex="0"
+                height="250px"
               ></iframe>
             </div>
           </div>
@@ -499,7 +502,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <div id="modal">
       <form>
