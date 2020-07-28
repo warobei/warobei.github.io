@@ -1095,7 +1095,7 @@ li {
 .footer__copyright {
   background-color: #303030;
 
-  min-height: 42px;
+  padding: 30px 0;
 
   position: relative;
 }
